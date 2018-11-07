@@ -2,9 +2,7 @@
 Convenience middleware for adding of Prometheus metrics collection to a server.
 
 [![Build Status](https://travis-ci.org/zephinzer/ezpromhttp.svg?branch=master)](https://travis-ci.org/zephinzer/ezpromhttp)
-
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/expressjs/express.svg)](https://github.com/zephinzer/ezpromhttp)
-
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/zephinzer/ezpromhttp.svg)](https://github.com/zephinzer/ezpromhttp/releases)
 
 # Scope
 This middleware automatically adds convenience labels to Prometheus HTTP metrics.
