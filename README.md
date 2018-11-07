@@ -1,6 +1,8 @@
 # Golang Prometheus HTTP Collectors
 Convenience middleware for adding of Prometheus metrics collection to a server.
 
+[![Build Status](https://travis-ci.org/zephinzer/ezpromhttp.svg?branch=master)](https://travis-ci.org/zephinzer/ezpromhttp)
+
 # Scope
 This middleware automatically adds convenience labels to Prometheus HTTP metrics.
 
