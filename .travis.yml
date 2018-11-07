@@ -21,6 +21,7 @@ jobs:
       - echo "DOCKER_REGISTRY=not_in_use" > ./Makefile.properties
       - echo "DOCKER_NAMESPACE=not_in_use" >> ./Makefile.properties
       - echo "DOCKER_IMAGE=not_in_use" >> ./Makefile.properties
+      - make dep ARGS="ensure -v"
       - make testc
       - make build
     - stage: release
