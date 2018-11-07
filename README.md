@@ -1,8 +1,11 @@
+# Convenience Prometheus HTTP Metrics Middleware for Go
+
 [![Build Status](https://travis-ci.org/zephinzer/ezpromhttp.svg?branch=master)](https://travis-ci.org/zephinzer/ezpromhttp)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/zephinzer/ezpromhttp.svg)](https://github.com/zephinzer/ezpromhttp/releases)
 
-# Convenience Prometheus HTTP Metrics Middleware for Go
-Convenience middleware for adding of Prometheus metrics collection to a server.
+Convenience middleware for adding of Prometheus HTTP metrics to a server that includes path, status, and method labels by default.
+
+> See [this issue](https://github.com/prometheus/client_golang/issues/491) for potential performance issues.
 
 # Scope
 This middleware automatically adds convenience labels to Prometheus HTTP metrics.
