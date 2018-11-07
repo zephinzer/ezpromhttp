@@ -1,0 +1,7 @@
+.cache
+.version
+coverage
+pkg
+src
+vendor
+Makefile.properties
